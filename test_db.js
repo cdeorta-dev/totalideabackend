@@ -2,4 +2,4 @@ const pool = require('./app'); // Asegúrate de que sea el archivo donde configu
 
 pool.connect()
   .then(() => console.log('Conexión exitosa'))
-  .catch(err => console.error('Error de conexión:', err.stack));
+  .catch(err => console.error('Error de conexión:', err.stack)); 
